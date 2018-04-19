@@ -10,5 +10,7 @@ module.exports = function(deployer) {
   deployer.deploy(ownable);
   deployer.deploy(safemath);
   deployer.deploy(zombieattack);
-  deployer.deploy(zombiefactory);
+  // deployer.deploy(zombiefactory);
+  // deployer.deploy(zombiefeeding);
+
 };
