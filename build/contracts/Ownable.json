@@ -225,7 +225,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1005,
+                        "referencedDeclaration": 1081,
                         "src": "505:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -314,7 +314,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1005,
+                            "referencedDeclaration": 1081,
                             "src": "636:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -368,7 +368,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1008,
+                      "referencedDeclaration": 1084,
                       "src": "628:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -523,7 +523,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1008,
+                      "referencedDeclaration": 1084,
                       "src": "898:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -914,7 +914,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1005,
+                        "referencedDeclaration": 1081,
                         "src": "505:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -1003,7 +1003,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1005,
+                            "referencedDeclaration": 1081,
                             "src": "636:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -1057,7 +1057,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1008,
+                      "referencedDeclaration": 1084,
                       "src": "628:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1212,7 +1212,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1008,
+                      "referencedDeclaration": 1084,
                       "src": "898:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1445,10 +1445,10 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x9515d3c99afa4cdf9a8ce6674e5ce1cfcb6ea88b",
-      "transactionHash": "0x3325393ae5bc963aba10e3bd5b9dfd78918e3a41499a7c43d09160a770828e32"
+      "address": "0x98d9f9e8debd4a632682ba207670d2a5acd3c489",
+      "transactionHash": "0xee83e97d6da152730a22e563c0d3da7d19c25214c976c3bbd7013272d3236981"
     }
   },
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-04-19T20:33:23.506Z"
+  "updatedAt": "2018-04-24T20:07:11.632Z"
 }

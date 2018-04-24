@@ -26,9 +26,9 @@ contract ZombieFeeding is ZombieFactory {
     _;
   }
 
-  function ZombieFeeding() internal {
+  /* function ZombieFeeding() internal {
     kittyContract = KittyInterface(address(0x06012c8cf97BEaD5deAe237070F9587f8E7A266d));
-  }
+  } */
 
   function setKittyContractAddress(address _address) external onlyOwner {
     kittyContract = KittyInterface(_address);

@@ -6,29 +6,18 @@ var zombiefeeding = artifacts.require("./zombiefeeding.sol");
 const util = require("util");
 const fs = require("fs");
 const path = require("path");
-// console.log(JSON.stringify(util));
-// const writeFile = util.promisify(fs.writeFile);
+
 module.exports = async function(deployer) {
-  // const zombieHelper = await deployer.deploy(zombiehelper);
-  try {
-    const test = deployer.deploy(zombiehelper);
-    console.log('done')
-  } catch(e) {
-    console.log(e)
-  }
-  // console.log('hey')
-  // const addresses = {
-  //   tokenAddress: zombieHelper.address
-  // };
-  // console.log('ho')
-  // // deployer.deploy(ownable);
-  // // deployer.deploy(safemath);
-  // // deployer.deploy(zombieattack);
-  // deployer.deploy(zombiefactory);
-  // deployer.deploy(zombiefeeding);
-  // deployer.deploy(zombieownership);
-  // fs.writeFile(
-  //   path.join(__dirname, "..", "app", "addresses.json"),
-  //   JSON.stringify(addresses)
-  // );
+  await deployer.deploy(zombiefactory);
+  await deployer.deploy(zombiehelper);
+
+  const addresses = {
+    zombieFactoryAddress: zombiefactory.address,
+    zombieHelperAddress: zombiehelper.address
+  };
+
+  fs.writeFile(
+    path.join(__dirname, "..", "app", "addresses.json"),
+    JSON.stringify(addresses)
+  );
 };
